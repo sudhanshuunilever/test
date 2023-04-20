@@ -1,2 +1,0 @@
-class Sudhanshu {
-	public static void main(String

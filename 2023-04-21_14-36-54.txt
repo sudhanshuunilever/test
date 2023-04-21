@@ -1,0 +1,20 @@
+third should be api endpoint
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def homepage():
+  return 'Home page of the Application'
+
+@app.route('/body')
+def body_page():
+  return render_template('body_page.html')
+
+@app.route('/api/test')
+def api_test():
+  return 'API endpoint'
+
+if __name__ == '__main__':
+  app.run()

@@ -1,3 +1,0 @@
-Suggests
-
-ChangiSuggests is a mobile application developed by Changi Airport Group to help travellers make their journey through Singapore's Changi Airport smoother. It features features such as personalised flight and shopping recommendations, exclusive deals and promotions, as well as airport tips and articles. With this app, travellers can easily find their way around the airport with detailed maps, explore delightful dining and shopping options, and stay up to date with the latest flight information and more.

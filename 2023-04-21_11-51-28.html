@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Information Form</title>
+	<style>
+		h2 {
+			font-size: 25px;
+			text-align: center;
+			margin-top: 40px;
+			font-family: "arial";
+		}
+
+		.gallery {
+			margin: 50px;
+			text-align: center;
+			display: block;
+		}
+
+		.gallery img {
+			width: 300px;
+			height: 300px;
+   			border: 2px solid #000;
+			margin: 20px;
+			box-shadow: 5px 5px 10px #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>Sudhanshu's Grade and Tiger Photo Gallery Form</h2>
+	</div>
+
+	<form action="" method="post">
+		<table>
+			<tr>
+				<td>Email address: </td>
+				<td><input type="email" name="email" placeholder="enter your email" required /><br/></td>
+			</tr>
+			<tr>
+				<td>Number: </td>
+				<td><input type="tel" name="phone" placeholder="enter your phone number" required /><br/></td>
+			</tr>
+			<tr>
+				<td>Grade: </td>
+				<td><input type="number" name="grade" placeholder="enter your grade" required /><br/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+
+	<div class="gallery">
+		<img src="tiger1.jpg" />
+		<img src="tiger2.jpg" />
+		<img src="tiger3.jpg" />
+		<img src="tiger4.jpg" />
+		<img src="tiger5.jpg" />
+	</div>
+</body>
+</html>

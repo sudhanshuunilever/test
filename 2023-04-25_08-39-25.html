@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+	<title>Second Hand Car</title>
+	<style>
+		body{
+			background:#3f3d3d;
+		}
+		h1{
+			text-align:center;
+			font-family: 'Roboto', sans-serif;
+			color:#FFF;
+			margin:50px 10px;
+		}
+		#formDiv{
+			max-width:400px;
+			background:#FFF;
+			margin:auto;
+			padding:20px;
+			border-radius:5px;
+			box-shadow:4px 4px 5px #666;
+		}
+		input{
+			width:100%;
+			padding:10px;
+			border:1px solid #ddd;
+			box-sizing:border-box;
+			margin-top:5px;
+			margin-bottom:7px;
+		}
+		input[type="submit"]{
+			background:#19B5FE;
+			color:#FFF;
+			cursor:pointer;
+			border:none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Second Hand Car</h1>
+	<div id="formDiv">
+		<form action="" method="POST" name="form">
+			<input type="text" name="userName" maxlength="20" placeholder="Enter your name" autocomplete="off" required />
+			<input type="text" name="phone" maxlength="10" placeholder="Phone Number" autocomplete="off" required />
+			<p>Car Details : </p>
+			<input type="text" name="model" maxlength="20" placeholder="Model Name" autocomplete="off" required />
+			<input type="text" name="registration" maxlength="20" placeholder="Registration Number" autocomplete="off" required />
+			<input type="submit" name="submitBtn" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

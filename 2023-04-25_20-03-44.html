@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>Harry Potter Fan Community</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #FAFAFA;
+    }
+    h1 {
+      font-size: 24px;
+      color: #4B4B4B;
+      font-weight: bold;
+    }
+    #gallery-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 12px;
+      padding: 12px;
+    }
+    #image-gallery img {
+      width: 100%;
+      height: auto;
+    }
+    #form-wrapper {
+      background-color: #FAFAFA;
+      padding: 24px;
+    }
+    #join-form input[type='text'] {
+      width: 100%;
+      height: 36px;
+      font-size: 16px;
+    }
+    #join-form input[type='submit'] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #4286F4;
+      color: #FAFAFA;
+      text-transform: uppercase;
+      border-radius: 0px;
+    }
+    #join-form input[type='submit']:hover {
+      background-color: #2B62E8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Harry Potter Fan Community</h1>
+  <div id="gallery-wrapper">
+    <img src="https://www.harrypotterfanzone.com/wp-content/uploads/2018/09/Harry-Potter-cast-Toyota.jpg" alt="Harry Potter Cast" />
+    <img src="https://img1.looper.com/img/gallery/the-true-story-of-the-real-life-inspiration-for-harry-potter/intro-1569700922.jpg" alt="Real-Life Inspiration for Harry Potter" />
+    <img src="https://static.posters.cz/image/750/plakater/harry-potter-poster-i43535.jpg" alt="Harry Potter Poster" />
+    <img src="https://live.staticflickr.com/4667/25142186157_dabbd7a8a1_b.jpg" alt="Harry Potter on Broom" />
+    <img src="https://vignette.wikia.nocookie.net/harrypotter/images/c/cf/Harry_Potter_DH1_TEA.jpg/revision/latest/scale-to-width-down/320?cb=20130218171812" alt="Harry Potter and the Deathly Hallows" />
+    <img src="https://www.hp-lexicon.org/wp-content/uploads/Ron-Harry-Crookshanks-768x512.jpg" alt="Harry Potter and Ron Weasley" />
+  </div>
+  <div id="form-wrapper">
+    <h1>Join the Harry Potter Fan Community</h1>
+    <form id="join-form" action="" method="post">
+      <label for="name">Name:</label><br/>
+      <input type="text" name="name" required><br/>
+      <label for="email">Email:</label><br/>
+      <input type="text" name="email" required><br/>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>

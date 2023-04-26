@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harry Potter Fan Community</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                background-color: #000;
+                font-family: sans-serif;
+                color: #fff;
+            }
+            #container {
+                width: 1000px;
+                margin: auto;
+            }
+            .gallary-heading {
+                font-size: 22px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .gallery-wrap {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .gallery-wrap img {
+                width: 290px;
+                height: 200px;
+                margin: 10px;
+            }
+            #form-container {
+                width: 500px;
+                margin: auto;
+            }
+            form {
+                text-align: center;
+            }
+            input, select {
+                width: 300px;
+                padding: 11px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+            input[type="submit"] {
+                background-color: #ccdc00;
+                border: none;
+            }
+            input[type="submit"]:hover {
+                background-color: #b3cb00;
+                transition: .5s;
+            }
+
+/* Animations*/
+.container {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  width: 400px;
+  height: 400px;
+}
+.text {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /* Animation */
+  animation: mymove 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes mymove {  
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1 class="gallary-heading">Harry Potter Image Gallery</h1>
+            <div class="gallery-wrap">
+                <img src="hp-image1.jpg" alt="Harry Potter Image 1" >
+                <img src="hp-image2.jpg" alt="Harry Potter Image 2" >
+                <img src="hp-image3.jpg" alt="Harry Potter Image 3" >
+                <img src="hp-image4.jpg" alt="Harry Potter Image 4" >
+                <img src="hp-image5.jpg" alt="Harry Potter Image 5" >
+            </div>
+            <div id="form-container">
+                <h2>Join the Community</h2>
+                <form action="">
+                    <input type="text" placeholder="Full Name" >
+                    <input type="email" placeholder="Email" >
+                    <select name="" id="">
+                        <option value="">Select Your Favorite Character</option>
+                        <option value="Harry Potter">Harry Potter</option>
+                        <option value="Ron Weasley">Ron Weasley</option>
+                        <option value="Hermione Granger">Hermione Granger</option>
+                        <option value="Albus Dumbledore">Albus Dumbledore</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Animation Code -->
+        <div class="container">
+          <div class="text">Welcome to the Harry Potter Fan Community </div>
+        </div>
+    </body>
+</html>
